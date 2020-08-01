@@ -22,6 +22,7 @@ public class ITchel extends Worker {
                 int nalog = (prem / 5);
                 prem -= nalog;
                 Main.inCase += nalog;
+
                 this.didHeGet = true;
                 return prem;
             }
